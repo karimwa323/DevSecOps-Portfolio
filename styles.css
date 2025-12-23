@@ -145,6 +145,40 @@ a:hover {
 /* Sections */
 .section {
     padding: 3rem 0;
+
+    /* Contact Buttons */
+.btn-contact-email {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-contact-email:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-contact-linkedin {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.btn-contact-linkedin:hover {
+    background-color: #005885;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-contact-github {
+    background-color: #333333;
+    color: #fff;
+}
+
+.btn-contact-github:hover {
+    background-color: #1a1a1a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
     background-color: #fff;
 }
 
